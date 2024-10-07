@@ -86,7 +86,6 @@
     background-repeat: no-repeat;
     -webkit-background-clip: text;
     background-position: -410px 0;
-    animation: animateText 6s linear infinite;
 }
 
 @keyframes animateText {
