@@ -152,3 +152,120 @@
 .btn:hover {
     box-shadow: none;
 }
+
+@media (max-width: 1024px) {
+    .home {
+        padding: 0 5%;
+        background: linear-gradient(-90deg, #031540 60%, #fff 40%);
+    }
+
+    .home-image {
+        width: 80vw;
+        max-width: 400px;
+        height: auto;
+        aspect-ratio: 1 / 1;
+        margin: 20px auto;
+        background: #031540;
+        border-radius: 50%;
+        border: 6vw solid #fff;
+        outline: 6vw solid #031540;
+    }
+
+    .home-image img {
+        width: 100%;
+        height: auto;
+        position: relative;
+        bottom: 5%;
+    }
+
+    .home-content h1 {
+        font-size: 45px;
+    }
+
+    .home-content h3 {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        padding: 20px 5%;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar {
+        margin-top: 10px;
+    }
+
+    .navbar a {
+        font-size: 16px;
+        margin-left: 20px;
+    }
+
+    .home {
+        flex-direction: column-reverse;
+        text-align: center;
+        height: auto;
+        padding: 80px 5% 40px;
+        background: linear-gradient(to bottom, #031540 60%, #fff 40%);
+    }
+
+    .home-content {
+        max-width: 100%;
+        color: #fff;
+        text-align: center;
+    }
+
+    .home-content h1 {
+        font-size: 35px;
+    }
+
+    .home-content h3 {
+        font-size: 28px;
+    }
+
+    .home-image {
+        margin: 20px 0;
+        width: 300px;
+        height: 300px;
+        margin-left: 0;
+    }
+
+    .btn {
+        padding: 10px 25px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .home-content h1 {
+        font-size: 28px;
+    }
+
+    .home-content h3 {
+        font-size: 22px;
+    }
+
+    .home-content p {
+        font-size: 14px;
+    }
+
+    .home-image {
+        max-width: 220px;
+        border: 5vw solid #fff;
+        outline: 5vw solid #031540;
+    }
+
+    .home-sci a {
+        width: 35px;
+        height: 35px;
+        font-size: 18px;
+        margin-left: 8px;
+    }
+
+    .btn {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+}
